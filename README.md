@@ -1,2 +1,6 @@
 # springboot-thymeleaf
-Spring Boot + Thymeleaf
+Web Template Project
+
+- Spring Boot
+- Thymeleaf
+- Maven
