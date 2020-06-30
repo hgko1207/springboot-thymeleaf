@@ -1,23 +1,20 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<html lang="ko" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 <head>
-	<meta charset="utf-8">
-    <th:block th:replace="fragments/head"></th:block>
+	<!-- config fragment 사용 -->
+	<th:block th:replace="fragment/config :: configFragment"></th:block>
 </head>
 <body>
-	<!-- 怨듯넻 header -->
-    <header th:replace="fragments/header :: commonHeader"></header>
+	<!-- header fragment 사용 -->
+	<th:block th:replace="fragment/header :: headerFragment"></th:block>
 
-    <!-- page content body 援ъ꽦 -->
-    <th:block layout:fragment="content"></th:block>
-    
-    <!-- 怨듯넻 footer -->
-    <footer th:replace="fragments/footer :: commonFooter"></footer>
-    
-    <!-- 怨듯넻 javascript -->
-    <th:block th:replace="fragments/script"></th:block>
-    
-    <!-- page content javascript -->
-    <th:block layout:fragment="pageCustomScript"></th:block>
+	<!-- content fragment 사용, 현재 layout을 사용하는 content fragment의 내용을 삽입한다. -->
+	<th:block layout:fragment="content"></th:block>
+
+	<!-- footer fragment 사용 -->
+	<th:block th:replace="fragment/footer :: footerFragment"></th:block>
+	
+	<!-- Content Page의 script fragment 삽입 -->
+	<th:block layout:fragment="script"></th:block>
 </body>
 </html>

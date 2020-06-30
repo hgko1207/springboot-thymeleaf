@@ -1,0 +1,23 @@
+2020-05-18 16:06:07.150  INFO 5440 --- [restartedMain] c.h.t.SpringbootThymeleafApplication     : Starting SpringbootThymeleafApplication on DESKTOP-CMG60PK with PID 5440 (C:\Users\hgko\git\springboot-thymeleaf\springboot-thymeleaf\target\classes started by hgko in C:\Users\hgko\git\springboot-thymeleaf\springboot-thymeleaf)
+2020-05-18 16:06:07.152 DEBUG 5440 --- [restartedMain] c.h.t.SpringbootThymeleafApplication     : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-18 16:06:07.152  INFO 5440 --- [restartedMain] c.h.t.SpringbootThymeleafApplication     : No active profile set, falling back to default profiles: default
+2020-05-18 16:06:07.353  INFO 5440 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-18 16:06:07.354  INFO 5440 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-18 16:06:08.018  INFO 5440 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-18 16:06:08.025  INFO 5440 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-18 16:06:08.025  INFO 5440 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-18 16:06:08.104  INFO 5440 --- [restartedMain] o.a.c.c.C.[.[localhost].[/springboot]    : Initializing Spring embedded WebApplicationContext
+2020-05-18 16:06:08.104  INFO 5440 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 750 ms
+2020-05-18 16:06:08.341  INFO 5440 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-18 16:06:08.470  WARN 5440 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-05-18 16:06:08.707  WARN 5440 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-05-18 16:06:08.739  INFO 5440 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/springboot'
+2020-05-18 16:06:08.741  INFO 5440 --- [restartedMain] c.h.t.SpringbootThymeleafApplication     : Started SpringbootThymeleafApplication in 1.903 seconds (JVM running for 2.428)
+2020-05-18 16:06:13.152  INFO 5440 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/springboot]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-18 16:06:13.152  INFO 5440 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-18 16:06:13.155  INFO 5440 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2020-05-18 16:06:21.807  WARN 5440 --- [http-nio-8080-exec-3] n.n.u.t.decorators.DecoratorProcessor    : The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
+2020-05-18 16:06:21.942  WARN 5440 --- [http-nio-8080-exec-3] n.n.u.t.expressions.ExpressionProcessor  : Fragment expression "layout/defaultLayout" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2020-05-18 16:06:22.189  WARN 5440 --- [http-nio-8080-exec-3] n.n.u.t.fragments.FragmentProcessor      : You don't need to put the layout:fragment/data-layout-fragment attribute into the <head> section - the decoration process will automatically copy the <head> section of your content templates into your layout page.
+2020-05-18 16:17:56.561  INFO 5440 --- [RMI TCP Connection(23)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-05-18 16:17:56.563  INFO 5440 --- [RMI TCP Connection(23)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

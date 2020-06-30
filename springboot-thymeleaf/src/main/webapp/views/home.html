@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" 
-	layout:decorator="layout/defaultLayout">
-<head>
-	<meta charset="utf-8">
-</head>
-<body>
-	<th:block layout:fragment="content">
-		<h1>Page Content</h1>
-	</th:block>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorator="layout/default_layout">
 
-	<th:block layout:fragment="pageCustomScript">
-	
-	</th:block>    
-	<th:block layout:fragment="pageCustomCss">
-	
-	</th:block>
-</body>
+    <!-- index.html 고유 CSS 추가 -->
+    <th:block layout:fragment="css">
+        <link rel="stylesheet" th:href="@{/css/page/home.css}" >
+    </th:block>
+    
+    <div layout:fragment="content">
+        <h1>content</h1>
+    </div>
+    
+     <!-- index.html 고유 스크립트 추가 -->
+    <th:block layout:fragment="script">
+        <script th:src="@{/js/page/home.js}"></script>
+    </th:block>
 </html>
